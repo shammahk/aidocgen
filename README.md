@@ -1,6 +1,6 @@
 # aidocgen
 
-A powerful CLI tool for generating comprehensive markdown documentation for TypeScript projects, using OpenAI's GPT.
+A powerful CLI tool for generating comprehensive markdown documentation for projects, using OpenAI's GPT.
 
 ## Installation
 
