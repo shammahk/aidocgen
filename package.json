@@ -30,11 +30,13 @@
 	},
 	"homepage": "https://github.com/shammahk/aidocgen#readme",
 	"dependencies": {
+		"cli-progress": "^3.12.0",
 		"commander": "^11.1.0",
 		"inquirer": "8.2.6",
 		"node-fetch": "2.7.0"
 	},
 	"devDependencies": {
+		"@types/cli-progress": "^3.11.5",
 		"@types/inquirer": "^9.0.7",
 		"@types/node": "^20.10.4",
 		"typescript": "^5.3.3"
