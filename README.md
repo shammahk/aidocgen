@@ -7,13 +7,13 @@ A powerful CLI tool for generating comprehensive markdown documentation for proj
 Install `aidocgen` using npm:
 
 ```bash
-  npm install -g aidocgen
+npm install -g aidocgen
 ```
 
 Install `aidocgen` using yarn:
 
 ```bash
-  yarn global add aidocgen
+yarn global add aidocgen
 ```
 
 ## Features
@@ -27,7 +27,7 @@ Install `aidocgen` using yarn:
 Before using aidocgen, you need to set your OpenAI API key. Run the initialization command and follow the prompts:
 
 ```bash
-  aidocgen init
+aidocgen init
 ```
 
 You will be asked to provide your OpenAI API key which will be set locally for your future use. We do not have access to your OpenAI API key.
@@ -35,13 +35,13 @@ You will be asked to provide your OpenAI API key which will be set locally for y
 ### Generate documentation for a single file:
 
 ```bash
-  aidocgen parse path/to/yourFile.ts
+aidocgen parse path/to/yourFile.ts
 ```
 
 ### Generate documentation for an entire directory:
 
 ```bash
-  aidocgen parse path/to/yourDirectory
+aidocgen parse path/to/yourDirectory
 ```
 
 ## Contributing
