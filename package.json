@@ -1,0 +1,42 @@
+{
+	"name": "aidocgen",
+	"version": "1.0.0",
+	"description": "A tool for creating documentation using AI.",
+	"main": "bin/index.js",
+	"scripts": {
+		"build": "npx tsc",
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"init": "tsc && node dist/init.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/shammahk/aidocgen.git"
+	},
+	"keywords": [
+		"ai",
+		"documentation",
+		"generation",
+		"doc",
+		"generation",
+		"cli"
+	],
+	"bin": {
+		"aidocgen": "./dist/index.js"
+	},
+	"author": "shammahk1@gmail.com, https://github.com/shammahk",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/shammahk/aidocgen/issues"
+	},
+	"homepage": "https://github.com/shammahk/aidocgen#readme",
+	"dependencies": {
+		"commander": "^11.1.0",
+		"inquirer": "8.2.6",
+		"node-fetch": "2.7.0"
+	},
+	"devDependencies": {
+		"@types/inquirer": "^9.0.7",
+		"@types/node": "^20.10.4",
+		"typescript": "^5.3.3"
+	}
+}
